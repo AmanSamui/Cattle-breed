@@ -30,7 +30,7 @@ session = ort.InferenceSession(onnx_model_path)
 # Comprehensive breed information
 BREED_INFO = {
     "Holstein": {
-        "confidence": 0.92,
+        "confidence": 92,
         "type": "Dairy",
         "description": "Large black and white spotted cattle, excellent milk producers.",
         "origin": "Netherlands",
@@ -41,7 +41,7 @@ BREED_INFO = {
         "care_requirements": "Requires high-quality feed and regular milking schedule"
     },
     "Alambadi": {
-        "confidence": 0.87,
+        "confidence": 87,
         "type": "Draft/Draught",
         "description": "Medium-sized draught cattle with grey coat and compact build.",
         "origin": "Tamil Nadu, India",
@@ -52,7 +52,7 @@ BREED_INFO = {
         "care_requirements": "Adapted to hot climate, requires minimal care"
     },
     "Amritmahal": {
-        "confidence": 0.89,
+        "confidence": 89,
         "type": "Dual Purpose",
         "description": "Grey cattle with long horns, known for strength and endurance.",
         "origin": "Karnataka, India",
@@ -63,7 +63,7 @@ BREED_INFO = {
         "care_requirements": "Heat tolerant, requires moderate nutrition"
     },
     "Ayrshire": {
-        "confidence": 0.91,
+        "confidence": 91,
         "type": "Dairy",
         "description": "Red and white spotted dairy cattle with excellent milk quality.",
         "origin": "Scotland",
@@ -74,7 +74,7 @@ BREED_INFO = {
         "care_requirements": "Requires good pasture and regular milking"
     },
     "Banni": {
-        "confidence": 0.86,
+        "confidence": 86,
         "type": "Draft",
         "description": "Large grey buffalo breed known for exceptional strength.",
         "origin": "Gujarat, India",
@@ -85,7 +85,7 @@ BREED_INFO = {
         "care_requirements": "Suited to dry regions, needs adequate water"
     },
     "Bargur": {
-        "confidence": 0.84,
+        "confidence": 84,
         "type": "Dual Purpose",
         "description": "Small to medium-sized cattle with grey to white coat.",
         "origin": "Tamil Nadu, India",
@@ -96,7 +96,7 @@ BREED_INFO = {
         "care_requirements": "Well adapted to hilly terrain"
     },
     "Bhadawari": {
-        "confidence": 0.88,
+        "confidence": 88,
         "type": "Dairy",
         "description": "Buffalo breed with high butterfat content milk.",
         "origin": "Uttar Pradesh, India",
@@ -107,7 +107,7 @@ BREED_INFO = {
         "care_requirements": "Requires good feeding and water access"
     },
     "Brown_Swiss": {
-        "confidence": 0.90,
+        "confidence": 90,
         "type": "Dual Purpose",
         "description": "Large brown cattle known for longevity and milk production.",
         "origin": "Switzerland",
@@ -118,7 +118,7 @@ BREED_INFO = {
         "care_requirements": "Requires quality feed and good management"
     },
     "Dangi": {
-        "confidence": 0.83,
+        "confidence": 83,
         "type": "Draft",
         "description": "Medium-sized draught cattle with greyish coat.",
         "origin": "Maharashtra, India",
@@ -129,7 +129,7 @@ BREED_INFO = {
         "care_requirements": "Well adapted to harsh conditions"
     },
     "Deoni": {
-        "confidence": 0.87,
+        "confidence": 87,
         "type": "Dual Purpose",
         "description": "Medium-sized cattle with characteristic white markings.",
         "origin": "Maharashtra/Karnataka, India",
@@ -140,7 +140,7 @@ BREED_INFO = {
         "care_requirements": "Heat tolerant, moderate feed requirements"
     },
     "Gir": {
-        "confidence": 0.93,
+        "confidence": 93,
         "type": "Dairy",
         "description": "White to red cattle with distinctive curved horns and forehead.",
         "origin": "Gujarat, India",
@@ -151,7 +151,7 @@ BREED_INFO = {
         "care_requirements": "Heat resistant, good grazing ability"
     },
     "Guernsey": {
-        "confidence": 0.89,
+        "confidence": 89,
         "type": "Dairy",
         "description": "Golden-colored dairy cattle producing rich, creamy milk.",
         "origin": "Channel Islands",
@@ -162,7 +162,7 @@ BREED_INFO = {
         "care_requirements": "Requires good pasture and care"
     },
     "Hallikar": {
-        "confidence": 0.85,
+        "confidence": 85,
         "type": "Draft",
         "description": "Medium-sized draught cattle with grey coat and strong build.",
         "origin": "Karnataka, India",
@@ -173,7 +173,7 @@ BREED_INFO = {
         "care_requirements": "Hardy breed, minimal care needed"
     },
     "Hariana": {
-        "confidence": 0.88,
+        "confidence": 88,
         "type": "Dual Purpose",
         "description": "White to light grey cattle with good milk and draft qualities.",
         "origin": "Haryana, India",
@@ -184,7 +184,7 @@ BREED_INFO = {
         "care_requirements": "Heat tolerant, good foraging ability"
     },
     "Jaffrabadi": {
-        "confidence": 0.91,
+        "confidence": 91,
         "type": "Dairy",
         "description": "Large buffalo breed with high milk production capacity.",
         "origin": "Gujarat, India",
@@ -195,7 +195,7 @@ BREED_INFO = {
         "care_requirements": "Requires ample feed and water"
     },
     "Jersey": {
-        "confidence": 0.94,
+        "confidence": 94,
         "type": "Dairy",
         "description": "Small fawn-colored cattle producing rich, high-fat milk.",
         "origin": "Jersey Island",
@@ -206,7 +206,7 @@ BREED_INFO = {
         "care_requirements": "Requires quality feed, heat sensitive"
     },
     "Kangayam": {
-        "confidence": 0.86,
+        "confidence": 86,
         "type": "Draft",
         "description": "Red draught cattle known for their working ability.",
         "origin": "Tamil Nadu, India",
@@ -217,7 +217,7 @@ BREED_INFO = {
         "care_requirements": "Heat tolerant, good working stamina"
     },
     "Kankrej": {
-        "confidence": 0.90,
+        "confidence": 90,
         "type": "Dual Purpose",
         "description": "Large silver-grey cattle with long horns and good milk yield.",
         "origin": "Gujarat/Rajasthan, India",
@@ -228,7 +228,7 @@ BREED_INFO = {
         "care_requirements": "Drought resistant, good grazing ability"
     },
     "Kasargod": {
-        "confidence": 0.82,
+        "confidence": 82,
         "type": "Dual Purpose",
         "description": "Small to medium cattle with reddish-brown coat.",
         "origin": "Kerala, India",
@@ -239,7 +239,7 @@ BREED_INFO = {
         "care_requirements": "Adapted to coastal climate"
     },
     "Kenkatha": {
-        "confidence": 0.84,
+        "confidence": 84,
         "type": "Dual Purpose",
         "description": "Medium-sized cattle with grey to white coat coloration.",
         "origin": "Madhya Pradesh, India",
@@ -250,7 +250,7 @@ BREED_INFO = {
         "care_requirements": "Well suited to dry regions"
     },
     "Kherigarh": {
-        "confidence": 0.81,
+        "confidence": 81,
         "type": "Draft",
         "description": "Medium-sized draught cattle with good working capacity.",
         "origin": "Uttar Pradesh, India",
@@ -261,7 +261,7 @@ BREED_INFO = {
         "care_requirements": "Hardy breed, moderate care needed"
     },
     "Khillari": {
-        "confidence": 0.83,
+        "confidence": 83,
         "type": "Draft",
         "description": "Grey draught cattle known for their speed and agility.",
         "origin": "Maharashtra/Karnataka, India",
@@ -272,7 +272,7 @@ BREED_INFO = {
         "care_requirements": "Heat tolerant, good foraging"
     },
     "Krishna_Valley": {
-        "confidence": 0.85,
+        "confidence": 85,
         "type": "Dual Purpose",
         "description": "Large cattle breed with good milk and draft capabilities.",
         "origin": "Andhra Pradesh/Karnataka, India",
@@ -283,7 +283,7 @@ BREED_INFO = {
         "care_requirements": "Requires good nutrition and care"
     },
     "Malnad_gidda": {
-        "confidence": 0.80,
+        "confidence": 80,
         "type": "Dual Purpose",
         "description": "Small hill cattle adapted to forest regions.",
         "origin": "Karnataka, India",
@@ -294,7 +294,7 @@ BREED_INFO = {
         "care_requirements": "Well adapted to hilly terrain"
     },
     "Mehsana": {
-        "confidence": 0.92,
+        "confidence": 92,
         "type": "Dairy",
         "description": "Buffalo breed with excellent milk production and quality.",
         "origin": "Gujarat, India",
@@ -305,7 +305,7 @@ BREED_INFO = {
         "care_requirements": "Requires good feeding and management"
     },
     "Murrah": {
-        "confidence": 0.95,
+        "confidence": 95,
         "type": "Dairy",
         "description": "Black buffalo breed, world's best dairy buffalo.",
         "origin": "Haryana, India",
@@ -316,7 +316,7 @@ BREED_INFO = {
         "care_requirements": "Requires excellent feeding and care"
     },
     "Nagori": {
-        "confidence": 0.87,
+        "confidence": 87,
         "type": "Dual Purpose",
         "description": "White to light grey cattle with good drought resistance.",
         "origin": "Rajasthan, India",
@@ -327,7 +327,7 @@ BREED_INFO = {
         "care_requirements": "Excellent drought tolerance"
     },
     "Nagpuri": {
-        "confidence": 0.84,
+        "confidence": 84,
         "type": "Draft",
         "description": "Medium-sized working cattle with grey coat.",
         "origin": "Maharashtra, India",
@@ -338,7 +338,7 @@ BREED_INFO = {
         "care_requirements": "Hardy and low maintenance"
     },
     "Nili_Ravi": {
-        "confidence": 0.93,
+        "confidence": 93,
         "type": "Dairy",
         "description": "High-producing buffalo breed with distinctive blue eyes.",
         "origin": "Punjab, Pakistan/India",
@@ -349,7 +349,7 @@ BREED_INFO = {
         "care_requirements": "Requires intensive management"
     },
     "Nimari": {
-        "confidence": 0.82,
+        "confidence": 82,
         "type": "Dual Purpose",
         "description": "Medium-sized cattle with good adaptability to harsh conditions.",
         "origin": "Madhya Pradesh, India",
@@ -360,7 +360,7 @@ BREED_INFO = {
         "care_requirements": "Well suited to semi-arid regions"
     },
     "Ongole": {
-        "confidence": 0.91,
+        "confidence": 91,
         "type": "Dual Purpose",
         "description": "Large white cattle with distinctive hump and long legs.",
         "origin": "Andhra Pradesh, India",
@@ -371,7 +371,7 @@ BREED_INFO = {
         "care_requirements": "Heat tolerant, good grazing ability"
     },
     "Pulikulam": {
-        "confidence": 0.83,
+        "confidence": 83,
         "type": "Dual Purpose",
         "description": "Small to medium cattle with reddish-brown coat and good heat tolerance.",
         "origin": "Tamil Nadu, India",
@@ -382,7 +382,7 @@ BREED_INFO = {
         "care_requirements": "Excellent heat tolerance"
     },
     "Rathi": {
-        "confidence": 0.86,
+        "confidence": 86,
         "type": "Dual Purpose",
         "description": "White cattle with brown patches, good milk and draft qualities.",
         "origin": "Rajasthan, India",
@@ -393,7 +393,7 @@ BREED_INFO = {
         "care_requirements": "Drought resistant, hardy breed"
     },
     "Red_Dane": {
-        "confidence": 0.88,
+        "confidence": 88,
         "type": "Dairy",
         "description": "Red dairy cattle with good milk production and quality.",
         "origin": "Denmark",
@@ -404,7 +404,7 @@ BREED_INFO = {
         "care_requirements": "Requires good management and feeding"
     },
     "Red_Sindhi": {
-        "confidence": 0.89,
+        "confidence": 89,
         "type": "Dual Purpose",
         "description": "Red cattle known for heat tolerance and good milk production.",
         "origin": "Sindh region (Pakistan/India)",
@@ -415,7 +415,7 @@ BREED_INFO = {
         "care_requirements": "Excellent heat resistance"
     },
     "Sahiwal": {
-        "confidence": 0.92,
+        "confidence": 92,
         "type": "Dairy",
         "description": "Reddish-brown cattle, one of the best dairy breeds of India.",
         "origin": "Punjab, Pakistan/India",
@@ -426,7 +426,7 @@ BREED_INFO = {
         "care_requirements": "Heat resistant, good feed conversion"
     },
     "Surti": {
-        "confidence": 0.90,
+        "confidence": 90,
         "type": "Dairy",
         "description": "Buffalo breed with good milk production and butterfat content.",
         "origin": "Gujarat, India",
@@ -437,7 +437,7 @@ BREED_INFO = {
         "care_requirements": "Requires adequate nutrition"
     },
     "Tharparkar": {
-        "confidence": 0.87,
+        "confidence": 87,
         "type": "Dual Purpose",
         "description": "White to light grey cattle adapted to arid conditions.",
         "origin": "Rajasthan/Sindh",
@@ -448,7 +448,7 @@ BREED_INFO = {
         "care_requirements": "Excellent drought tolerance"
     },
     "Toda": {
-        "confidence": 0.79,
+        "confidence": 79,
         "type": "Dairy",
         "description": "Small hill cattle with good milk quality, rare breed.",
         "origin": "Tamil Nadu (Nilgiri Hills), India",
@@ -459,7 +459,7 @@ BREED_INFO = {
         "care_requirements": "Adapted to cool hill climate"
     },
     "Umblachery": {
-        "confidence": 0.81,
+        "confidence": 81,
         "type": "Draft",
         "description": "Grey draught cattle suitable for wet land cultivation.",
         "origin": "Tamil Nadu, India",
@@ -470,7 +470,7 @@ BREED_INFO = {
         "care_requirements": "Well adapted to wet conditions"
     },
     "Vechur": {
-        "confidence": 0.85,
+        "confidence": 85,
         "type": "Dairy",
         "description": "World's smallest cattle breed with high-quality milk.",
         "origin": "Kerala, India",
@@ -520,12 +520,12 @@ async def analyze_breed(image: UploadFile = File(...)):
         breed_name = random.choice(BREED_NAMES)
         breed_data = BREED_INFO.get(breed_name, {})
         
-        # Update confidence to match the selected breed's typical confidence
-        confidence = breed_data.get("confidence", confidence)
+        # Get confidence as integer percentage (already stored as percentage in BREED_INFO)
+        confidence = breed_data.get("confidence", 85)  # Default to 85% if not found
 
         return JSONResponse(content={
             "breed": breed_name,
-            "confidence": round(confidence, 2),
+            "confidence": confidence,  # Now returns integer like 89, not 0.89
             "info": breed_data
         })
 
